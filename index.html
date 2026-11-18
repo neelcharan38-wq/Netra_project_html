@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>NETRA Robot Monitoring System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--header defines heading of the webpage-->
+        <header class="topbar">
+
+            <!--part1-->
+
+            <div class="brand">
+                <div class="brand-logo">N</div>
+
+                <div>
+                    <h1>NETRA</h1>
+                    <p>ROBOT MISSION CONTROL</p>
+                </div>
+            </div>  
+
+            <!--part2-->
+            <nav>
+
+            <a href="#dashboard">Dashboard</a>
+            <a href="#fleet">Fleet</a>
+            <a href="#telemetry">Telemetry</a>
+            <a href="#alerts">Alerts</a>
+
+                
+            </nav>
+            <!--part3-->
+
+                    <!-- Displays system status and live clock -->
+        <div class="header-right">
+            <span class="online-dot"></span>
+            <span>SYSTEM ONLINE</span>
+            <strong id="clock">--:--:--</strong>
+        </div>
+
+        <!--part4-->
+        <button id="dispatch-open" type="button">+DISPATCH MISSION</button>
+        <script src="script.js"></script>
+        </header>
+    </body>
+</html>
