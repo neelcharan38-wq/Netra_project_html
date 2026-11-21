@@ -80,3 +80,15 @@ nav a:hover{
     font-family: monospace
 
 }
+#dispatch-open{
+    background: #287ee8;
+    color:white;
+    padding:12px 20px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 8px;
+   border:none;
+}
+#dispatch-open:hover{
+    background: #1765c3;
+}
