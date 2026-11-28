@@ -74,6 +74,58 @@
             </article>
 
             </section>
+
+            <section id="dashboard" class="section-heading">
+
+                <div>
+                    <h2>Fleet Overview</h2>
+                    <p>Monitor all campus rover activities.</p>
+
+                </div>
+
+                <span class="live-tag">● LIVE MONITORING</span>
+
+            </section>
+
+            <section class="panel" id="fleet">
+
+                            <div class="panel-title">
+
+                                <div>
+                                    <h2>Fleet Management</h2>
+                                    <p>Campus rover information</p>
+                                </div>
+                                <input type="search" id="rover-search" placeholder="Search rover or zone...">
+                            </div>
+
+            <div class="table-container">
+                <table >
+                    <thead>
+                        <tr>
+                            <th>Rover ID</th>
+                            <th>Zone</th>
+                            <th>Status</th>
+                            <th>Battery</th>
+                            <th>Temperature</th>
+                            <th>Sonar Distance</th>
+                            <th>Speed</th>
+                        </tr>
+                    </thead>
+ 
+                    <!-- JavaScript dynamically inserts rover records here -->
+                    <tbody id="fleet-body"></tbody>
+                </table>
+
+                            <p class="table-note">
+                Select a rover row to view its sensor readings and telemetry history.
+            </p>
+
+            </div>
+
+
+
+            </section>
+
         </main>
 
 

@@ -148,3 +148,32 @@ nav a:hover{
     color: #91a8c5;
     font-size: 12px;
 }
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-heading h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.select-heading p{
+    
+     color: #91a8c5;
+}
+
+.live-tag{
+        color: #39d6a0;
+   background: #1a2e3f;
+   padding: 9px 12px;
+   border-radius: 20px;
+       font-size: 11px;
+    white-space: nowrap;
+
+}
+.panel-title{
+    display:flex;
+}
